@@ -1,0 +1,32 @@
+# Системные и временные файлы
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# IDE
+.idea/
+.vscode/
+
+# Секреты
+.env
+.env.*
+token.txt
+*token*
+*secret*
+
+# Архивы, загруженные с Google Диска
+_drive_import/
+
+# Тяжёлые исходные материалы
+*.mp4
+*.avi
+*.mkv
+*.apk
+*.zip
+*.rar
+*.7z
+
+# Сохранённые копии веб-страниц
+*_files/
