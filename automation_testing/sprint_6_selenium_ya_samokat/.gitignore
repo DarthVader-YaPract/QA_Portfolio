@@ -1,9 +1,0 @@
-.idea/
-.pytest_cache/
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-allure_results/
-allure-report/
-geckodriver.log
