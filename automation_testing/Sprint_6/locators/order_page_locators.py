@@ -57,7 +57,7 @@ class OrderPageLocators:
     )
     CONFIRM_ORDER_BUTTON = (
         By.XPATH,
-        "//div[contains(@class, 'Order_Modal')]/button[text()='Да']"
+        "//button[text()='Да']"
     )
     SUCCESS_MESSAGE = (
         By.XPATH,
