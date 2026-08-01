@@ -24,10 +24,13 @@
 | [Спринт 2](automation_testing/sprint_2_oop/) | Объектно-ориентированное программирование | Наследование, полиморфизм, статические и классовые методы |
 | [Спринт 3](automation_testing/sprint_3_online_sales_register/) | Онлайн-касса | Реализация класса кассы, расчёта стоимости, скидки и налогов |
 | [Спринт 4](automation_testing/sprint_4_unit_testing_books_collector/) | Юнит-тестирование | Автотесты `pytest` для приложения `BooksCollector` |
+| [Спринт 5](automation_testing/sprint_5_selenium_stellar_burgers/) | UI-тестирование «Stellar Burgers» | Автотесты Selenium для регистрации, входа и конструктора |
 | [Задачник Практикума](automation_testing/yandex_practicum_exercises/) | Дополнительные упражнения | Практика Git, Python, `pytest` и параметризации |
 
-Автоматизационный спринт 5 хранится в отдельном репозитории и не включён сюда,
-пока работа находится на ревью.
+> История разработки Sprint 5, исходные коммиты и замечания ревьюера сохранены
+> в архивном репозитории [`Sprint_5`](https://github.com/DarthVader-YaPract/Sprint_5).
+> Обсуждение проверки и все замечания доступны в
+> [Pull Request №1](https://github.com/DarthVader-YaPract/Sprint_5/pull/1).
 
 ## Навыки
 
