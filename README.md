@@ -27,6 +27,11 @@
 | [Спринт 5](automation_testing/sprint_5_selenium_stellar_burgers/) | UI-тестирование «Stellar Burgers» | Автотесты Selenium для регистрации, входа и конструктора |
 | [Задачник Практикума](automation_testing/yandex_practicum_exercises/) | Дополнительные упражнения | Практика Git, Python, `pytest` и параметризации |
 
+> История разработки Sprint 5, исходные коммиты и замечания ревьюера сохранены
+> в архивном репозитории [`Sprint_5`](https://github.com/DarthVader-YaPract/Sprint_5).
+> Обсуждение проверки и все замечания доступны в
+> [Pull Request №1](https://github.com/DarthVader-YaPract/Sprint_5/pull/1).
+
 ## Навыки
 
 - анализ требований;
