@@ -47,6 +47,11 @@ class MainPage(BasePage):
         self.scroll_to_element(MainPageLocators.LOWER_ORDER_BUTTON)
         self.click(MainPageLocators.LOWER_ORDER_BUTTON)
 
+    @allure.step('Начать заказ через выбранную кнопку')
+    def start_order(self, order_button):
+        self.scroll_to_element(order_button)
+        self.click(order_button)
+
     @allure.step('Нажать логотип Самоката')
     def click_scooter_logo(self):
         self.click(MainPageLocators.SCOOTER_LOGO)
