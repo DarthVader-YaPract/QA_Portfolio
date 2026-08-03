@@ -1,0 +1,267 @@
+﻿{
+    "info":  {
+                 "_postman_id":  "fde09827-c367-4aa1-999f-223d7fabc047",
+                 "name":  "QA_full_stack_Yandex Praktikum",
+                 "schema":  "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+                 "createdAt":  "2026-03-06T10:53:29.000Z",
+                 "updatedAt":  "2026-03-13T22:55:18.000Z",
+                 "lastUpdatedBy":  "52739929",
+                 "uid":  "52739929-fde09827-c367-4aa1-999f-223d7fabc047"
+             },
+    "item":  [
+                 {
+                     "name":  "Успешное добавление одного товара в пустой набор",
+                     "id":  "250e6b41-e0a8-479e-a9e5-de8840312242",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+                                                    {
+                                                        "key":  "Content-Type",
+                                                        "value":  "application/json",
+                                                        "type":  "text"
+                                                    }
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "{\r\n  \"productsList\": [\r\n    {\r\n      \"id\": 1,\r\n      \"quantity\": 1\r\n    }\r\n  ]\r\n}",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  "{{baseUrl}}/api/v1/kits/{{emptyKitId}}/products",
+                                                 "host":  [
+                                                              "{{baseUrl}}"
+                                                          ],
+                                                 "path":  [
+                                                              "api",
+                                                              "v1",
+                                                              "kits",
+                                                              "{{emptyKitId}}",
+                                                              "products"
+                                                          ]
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T12:41:51.000Z",
+                     "updatedAt":  "2026-03-13T12:48:02.000Z",
+                     "uid":  "52739929-250e6b41-e0a8-479e-a9e5-de8840312242"
+                 },
+                 {
+                     "name":  "Создание набора Tatooine_02",
+                     "id":  "8f9d4a88-8c1a-484b-b4e4-89b2d25178bc",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  ""
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T12:50:14.000Z",
+                     "updatedAt":  "2026-03-14T11:30:39.000Z",
+                     "uid":  "52739929-8f9d4a88-8c1a-484b-b4e4-89b2d25178bc"
+                 },
+                 {
+                     "name":  "Добавить 29 уникальных товаров",
+                     "id":  "b7290d8c-e696-4ca3-bb6e-04720f0e6438",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+                                                    {
+                                                        "key":  "Content-Type",
+                                                        "value":  "application/json",
+                                                        "type":  "text"
+                                                    }
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "{\r\n  \"productsList\": [\r\n    { \"id\": 1, \"quantity\": 1 },\r\n    { \"id\": 2, \"quantity\": 1 },\r\n    { \"id\": 3, \"quantity\": 1 },\r\n    { \"id\": 4, \"quantity\": 1 },\r\n    { \"id\": 5, \"quantity\": 1 },\r\n    { \"id\": 6, \"quantity\": 1 },\r\n    { \"id\": 7, \"quantity\": 1 },\r\n    { \"id\": 8, \"quantity\": 1 },\r\n    { \"id\": 9, \"quantity\": 1 },\r\n    { \"id\": 10, \"quantity\": 1 },\r\n    { \"id\": 11, \"quantity\": 1 },\r\n    { \"id\": 12, \"quantity\": 1 },\r\n    { \"id\": 13, \"quantity\": 1 },\r\n    { \"id\": 14, \"quantity\": 1 },\r\n    { \"id\": 15, \"quantity\": 1 },\r\n    { \"id\": 16, \"quantity\": 1 },\r\n    { \"id\": 17, \"quantity\": 1 },\r\n    { \"id\": 18, \"quantity\": 1 },\r\n    { \"id\": 19, \"quantity\": 1 },\r\n    { \"id\": 20, \"quantity\": 1 },\r\n    { \"id\": 21, \"quantity\": 1 },\r\n    { \"id\": 22, \"quantity\": 1 },\r\n    { \"id\": 23, \"quantity\": 1 },\r\n    { \"id\": 24, \"quantity\": 1 },\r\n    { \"id\": 25, \"quantity\": 1 },\r\n    { \"id\": 26, \"quantity\": 1 },\r\n    { \"id\": 27, \"quantity\": 1 },\r\n    { \"id\": 28, \"quantity\": 1 },\r\n    { \"id\": 29, \"quantity\": 1 }\r\n  ]\r\n}",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  "{{baseUrl}}/api/v1/kits/11/products",
+                                                 "host":  [
+                                                              "{{baseUrl}}"
+                                                          ],
+                                                 "path":  [
+                                                              "api",
+                                                              "v1",
+                                                              "kits",
+                                                              "11",
+                                                              "products"
+                                                          ]
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T12:58:36.000Z",
+                     "updatedAt":  "2026-03-13T14:24:05.000Z",
+                     "uid":  "52739929-b7290d8c-e696-4ca3-bb6e-04720f0e6438"
+                 },
+                 {
+                     "name":  "Успешное добавление 29 уникальных товаров в набор",
+                     "id":  "e7b280ba-5ca3-4b1a-a73c-731cd83623ff",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+                                                    {
+                                                        "key":  "Content-Type",
+                                                        "value":  "application/json",
+                                                        "type":  "text"
+                                                    }
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "{\r\n  \"productsList\": [\r\n    { \"id\": 1, \"quantity\": 3 }\r\n  ]\r\n}",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  "{{baseUrl}}/api/v1/kits",
+                                                 "host":  [
+                                                              "{{baseUrl}}"
+                                                          ],
+                                                 "path":  [
+                                                              "api",
+                                                              "v1",
+                                                              "kits"
+                                                          ]
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T14:03:08.000Z",
+                     "updatedAt":  "2026-03-13T14:10:41.000Z",
+                     "uid":  "52739929-e7b280ba-5ca3-4b1a-a73c-731cd83623ff"
+                 },
+                 {
+                     "name":  "Ошибка при отсутствии поля id в элементе productsList",
+                     "id":  "952ed27c-64b6-4502-baca-953ed4f262fe",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+                                                    {
+                                                        "key":  "Content-Type",
+                                                        "value":  "application/json",
+                                                        "type":  "text"
+                                                    }
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "{\r\n    \"productsList\": [\r\n        {\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  "{{baseUrl}}/api/v1/kits/14/products",
+                                                 "host":  [
+                                                              "{{baseUrl}}"
+                                                          ],
+                                                 "path":  [
+                                                              "api",
+                                                              "v1",
+                                                              "kits",
+                                                              "14",
+                                                              "products"
+                                                          ]
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T17:27:48.000Z",
+                     "updatedAt":  "2026-03-13T17:27:48.000Z",
+                     "uid":  "52739929-952ed27c-64b6-4502-baca-953ed4f262fe"
+                 },
+                 {
+                     "name":  "Добавляет 0 id",
+                     "id":  "e9acdcaf-976e-41a1-89a3-ac4172bf9600",
+                     "protocolProfileBehavior":  {
+                                                     "disableBodyPruning":  true
+                                                 },
+                     "request":  {
+                                     "method":  "POST",
+                                     "header":  [
+                                                    {
+                                                        "key":  "Content-Type",
+                                                        "value":  "application/json",
+                                                        "type":  "text"
+                                                    }
+                                                ],
+                                     "body":  {
+                                                  "mode":  "raw",
+                                                  "raw":  "{\r\n  \"productsList\": [\r\n    {\r\n      \"id\": 0,\r\n      \"quantity\": 1\r\n    }\r\n  ]\r\n}",
+                                                  "options":  {
+                                                                  "raw":  {
+                                                                              "language":  "json"
+                                                                          }
+                                                              }
+                                              },
+                                     "url":  {
+                                                 "raw":  "{{baseUrl}}/api/v1/kits/{{newKitId}}/products",
+                                                 "host":  [
+                                                              "{{baseUrl}}"
+                                                          ],
+                                                 "path":  [
+                                                              "api",
+                                                              "v1",
+                                                              "kits",
+                                                              "{{newKitId}}",
+                                                              "products"
+                                                          ]
+                                             }
+                                 },
+                     "response":  [
+
+                                  ],
+                     "createdAt":  "2026-03-13T22:55:18.000Z",
+                     "updatedAt":  "2026-03-13T22:55:18.000Z",
+                     "uid":  "52739929-e9acdcaf-976e-41a1-89a3-ac4172bf9600"
+                 }
+             ]
+}
