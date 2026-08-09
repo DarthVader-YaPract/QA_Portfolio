@@ -64,3 +64,4 @@ class OrderPageLocators:
         "//div[contains(@class, 'Order_ModalHeader') "
         "and contains(text(), 'Заказ оформлен')]"
     )
+    
