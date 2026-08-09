@@ -31,3 +31,5 @@ class MainPageLocators:
     IMPORTANT_ANSWER_6 = (By.ID, 'accordion__panel-6')
     IMPORTANT_QUESTION_7 = (By.ID, 'accordion__heading-7')
     IMPORTANT_ANSWER_7 = (By.ID, 'accordion__panel-7')
+
+
