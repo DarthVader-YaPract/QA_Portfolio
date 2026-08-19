@@ -25,6 +25,7 @@
 | [Спринт 3](automation_testing/sprint_3_online_sales_register/) | Онлайн-касса | Реализация класса кассы, расчёта стоимости, скидки и налогов |
 | [Спринт 4](automation_testing/sprint_4_unit_testing_books_collector/) | Юнит-тестирование | Автотесты `pytest` для приложения `BooksCollector` |
 | [Спринт 5](automation_testing/sprint_5_selenium_stellar_burgers/) | UI-тестирование «Stellar Burgers» | Автотесты Selenium для регистрации, входа и конструктора |
+| [Спринт 7](automation_testing/sprint_7_api_testing/) | API-тестирование «Яндекс Самокат» | Автотесты API на `pytest` и результаты Allure |
 | [Задачник Практикума](automation_testing/yandex_practicum_exercises/) | Дополнительные упражнения | Практика Git, Python, `pytest` и параметризации |
 
 > История разработки Sprint 5, исходные коммиты и замечания ревьюера сохранены
