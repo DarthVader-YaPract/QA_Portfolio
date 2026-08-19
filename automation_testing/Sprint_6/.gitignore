@@ -1,0 +1,10 @@
+.idea/
+.venv/
+__pycache__/
+.pytest_cache/
+allure_results/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+venv/
