@@ -31,3 +31,9 @@ _drive_import/
 # Сохранённые копии веб-страниц
 *_files/
 
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
